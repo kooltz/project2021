@@ -1,0 +1,4 @@
+# base.txt
+django==3.0.11
+django-environ==0.4.5
+
