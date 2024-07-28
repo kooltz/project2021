@@ -26,7 +26,7 @@ print('TEMPLATES_DIR : ',TEMPLATES_DIR)
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '=ombg$$(*4f!tdt&=tcz*ee3jv5k0xceo4^@5(@2xanmvi$u$&'
+# SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
@@ -84,16 +84,16 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD':'',
-        'HOST':'',
-        'PORT':''
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': '',
+#         'USER': '',
+#         'PASSWORD':'',
+#         'HOST':'',
+#         'PORT':''
+#     }
+# }
 
 
 # Password validation
